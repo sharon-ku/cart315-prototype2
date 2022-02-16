@@ -5,6 +5,7 @@ using UnityEngine;
 public class RotateBoat : MonoBehaviour
 {
     public float rotationSpeed = 0.1f;
+    public float sidePushingForce = 0.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,16 +18,16 @@ public class RotateBoat : MonoBehaviour
     {
 
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             this.GetComponent<Transform>().Rotate(0, 0, rotationSpeed);
-            this.GetComponent<Rigidbody>().AddForce(0.1f, 0, 0);
+            this.GetComponent<Rigidbody>().AddForce(sidePushingForce, 0, 0);
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             this.GetComponent<Transform>().Rotate(0, 0, -rotationSpeed);
-            this.GetComponent<Rigidbody>().AddForce(-0.1f, 0, 0);
+            this.GetComponent<Rigidbody>().AddForce(-sidePushingForce, 0, 0);
         }
 
     }
