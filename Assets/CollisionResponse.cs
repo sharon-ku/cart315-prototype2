@@ -22,7 +22,7 @@ public class CollisionResponse : MonoBehaviour
     {
         if (collision.collider.gameObject == player)
         { 
-            Debug.Log("collission ");
+            Debug.Log("collision ");
 
             this.GetComponent< Rigidbody > ().AddForce(0, 1000, 0);
         }
