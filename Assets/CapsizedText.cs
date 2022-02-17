@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class CapsizedText : MonoBehaviour
 {
-    // public bool boatCapsized = false;
     public Text myText;
 
     // Start is called before the first frame update
