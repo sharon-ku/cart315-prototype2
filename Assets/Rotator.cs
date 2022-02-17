@@ -20,12 +20,12 @@ public class Rotator : MonoBehaviour
         
         
         if (Input.GetKey(KeyCode.R)) { 
-        this.GetComponent<Transform>().Rotate(0, rotationSpeed, 0);
+           this.GetComponent<Transform>().Rotate(0, rotationSpeed, 0);
         }
 
         if (Input.GetKey(KeyCode.T))
         {
-            this.GetComponent<Transform>().Rotate(0, -rotationSpeed, 0);
+           this.GetComponent<Transform>().Rotate(0, -rotationSpeed, 0);
         }
         
     }

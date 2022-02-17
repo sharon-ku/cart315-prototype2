@@ -6,6 +6,8 @@ public class ConstrainBoat : MonoBehaviour
 {
     public float xPositionConstrain = 5f;
 
+    public bool boatCapsized = false;
+
     [Header("Limit Rot")]
     public float maxZRot = 20f;
     public float minZRot = 20f;
@@ -37,6 +39,12 @@ public class ConstrainBoat : MonoBehaviour
         if (transform.position.x < -xPositionConstrain)
         { 
             transform.position = new Vector3(-xPositionConstrain, transform.position.y, transform.position.z);
+        }
+
+        // If boat falls behind the camera, set boatCapsized to true
+        if (transform.position.z < Camera.main.transform.position.z)
+        {
+            boatCapsized = true;
         }
 
         // LimitRot();
