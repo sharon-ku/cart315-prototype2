@@ -21,9 +21,18 @@ public class CapsizedText : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (GameObject.Find("Boat").GetComponent<ConstrainBoat>().boatCapsized == true)
+        
+
+        if (GameObject.Find("Boat").GetComponent<GetPushedForward>().boatReachedTheEnd == true)
         {
-            myText.text = "Capsized";
+            myText.text = "The End";
+        }
+        else
+        {
+            if (GameObject.Find("Boat").GetComponent<ConstrainBoat>().boatCapsized == true)
+            {
+                myText.text = "Capsized";
+            }
         }
     }
 }

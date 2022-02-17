@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GetPushedForward : MonoBehaviour
 {
+    public bool boatReachedTheEnd = false;
+    public float zFinalPosition = 830f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +22,19 @@ public class GetPushedForward : MonoBehaviour
 
     // Update is called once per frame
     void FixedUpdate()
-    {
-        this.GetComponent<Rigidbody>().AddForce(0, 0, 0.1f);
+    {   
+        // Keep pushing boat or camera until final z position
+        if (transform.position.z < zFinalPosition)
+        { 
+            this.GetComponent<Rigidbody>().AddForce(0, 0, 0.1f);
+        }
+        else
+        {
+            boatReachedTheEnd = true;
+ 
+        }
+
+
+
     }
 }
