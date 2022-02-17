@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateBoat : MonoBehaviour
 {
-    public float rotationSpeed = 0.1f;
+    public float rotationSpeed = 0.3f;
     public float sidePushingForce = 0.3f;
 
     // Start is called before the first frame update

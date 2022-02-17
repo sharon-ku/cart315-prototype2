@@ -26,7 +26,7 @@ public class Collector : MonoBehaviour
     {
         if(collision.gameObject.tag == collectibleTag)
         {
-            pickupSound.Play();
+            // pickupSound.Play();
             GameObject.Destroy(collision.gameObject);
         }
     }
