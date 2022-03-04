@@ -10,7 +10,10 @@ public class GetPushedForward : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // this.GetComponent<Rigidbody>().AddForce(0, 0, 1f);
+
+        // Give boat and camera initial velocity:
+        this.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0.3f); ;
     }
 
     // Update is called once per frame
