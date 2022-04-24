@@ -13,7 +13,7 @@ public class GetPushedForward : MonoBehaviour
         // this.GetComponent<Rigidbody>().AddForce(0, 0, 1f);
 
         // Give boat and camera initial velocity:
-        this.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0.5f); ;
+        this.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0.5f);
     }
 
     // Update is called once per frame
