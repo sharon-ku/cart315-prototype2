@@ -10,7 +10,7 @@ public class LightingManager : MonoBehaviour
     [SerializeField] private LightingPreset Preset;
     //Variables
     [SerializeField, Range(0, 24)] private float TimeOfDay;
-    private float RotationSpeed = 0.5f;
+    private float RotationSpeed = 0.01f;
 
     private void Start()
     {
