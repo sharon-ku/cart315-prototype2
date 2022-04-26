@@ -582,7 +582,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!65 &104733121
 BoxCollider:
@@ -616,7 +616,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 614a83a4eaedbcb4a8d8705f41c5eab6, type: 2}
+  - {fileID: 2100000, guid: 769e2fd720a2b2940a3a02dea16e48d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1070,7 +1070,7 @@ PrefabInstance:
     - target: {fileID: 5339445384053221638, guid: 166c092fc74f3494d943fab3294fe3e7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: bfd33327369431541a98f45db64ac4c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 460944554340eae47866f7a8192c72dc, type: 2}
     - target: {fileID: 7162954981111197627, guid: 166c092fc74f3494d943fab3294fe3e7, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4086,7 +4086,7 @@ PrefabInstance:
     - target: {fileID: 5339445384053221638, guid: 166c092fc74f3494d943fab3294fe3e7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: bfd33327369431541a98f45db64ac4c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 460944554340eae47866f7a8192c72dc, type: 2}
     - target: {fileID: 7162954981111197627, guid: 166c092fc74f3494d943fab3294fe3e7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6347,7 +6347,7 @@ PrefabInstance:
     - target: {fileID: 5339445384053221638, guid: 166c092fc74f3494d943fab3294fe3e7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: bfd33327369431541a98f45db64ac4c0, type: 2}
+      objectReference: {fileID: 2100000, guid: 460944554340eae47866f7a8192c72dc, type: 2}
     - target: {fileID: 7162954981111197627, guid: 166c092fc74f3494d943fab3294fe3e7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7879,7 +7879,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!65 &2074305663
 BoxCollider:
@@ -7913,7 +7913,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 07745f548176246409bc6a484b0df557, type: 2}
+  - {fileID: 2100000, guid: a7762a965a639db41a191f494bb47366, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
